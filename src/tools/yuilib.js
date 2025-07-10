@@ -8,3 +8,4 @@ const loadScriptsFrom = (path, files) => {
 };
 
 loadScriptsFrom('./components/selects', ['y-select.js']);
+loadScriptsFrom('./components/sidebar', ['y-sidebar.js']);
