@@ -7,5 +7,6 @@ const loadScriptsFrom = (path, files) => {
   });
 };
 
-loadScriptsFrom('./components/selects', ['y-select.js']);
-loadScriptsFrom('./components/sidebar', ['y-sidebar.js']);
+loadScriptsFrom('https://cdn.jsdelivr.net/gh/BlackHunterCode/uilib-yui-cdn@develop/src/components/selects', ['y-select.js']);
+loadScriptsFrom('https://cdn.jsdelivr.net/gh/BlackHunterCode/uilib-yui-cdn@develop/src/components/sidebar', ['y-sidebar.js']);
+loadScriptsFrom('https://cdn.jsdelivr.net/gh/BlackHunterCode/uilib-yui-cdn@develop/src/components/modals', ['y-modal.js']);
